@@ -17,12 +17,12 @@ def multiplicacion(x,y):
 def division(x,y):
     return x/y
 
-#Luego creamos el archivo main.py donde desarrollaremos la funcion principal y donde el usuario podrá interactuar.
+# Luego creamos el archivo main.py donde desarrollaremos la funcion principal y donde el usuario podrá interactuar.
 
 # Importamos las funciones desde funciones.py
 from funciones import suma, resta, multiplicacion, division
 
-#Definimos la función "main", que será nuestro punto de entrada al programa por parte del usuario
+# Definimos la función "main", que será nuestro punto de entrada al programa por parte del usuario
 def main():
     # Mensaje de bienvenida y opciones de uso
     print("Bienvenidos a esta sencilla calculadora entre dos números")
@@ -37,7 +37,7 @@ def main():
     num1 = int(input("Ingresa un número: "))
     num2 = int(input("Ingresa otro número: "))
 
-  #Validamos el operador y realizamos la operación solicitada detallando el proceso en la respuesta.
+  # Validamos el operador y realizamos la operación solicitada detallando el proceso en la respuesta.
     if operador == 1:
         resultado = suma(num1, num2)
         print(f"La suma de {num1} y {num2} es: {resultado}")
